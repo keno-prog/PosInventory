@@ -20,3 +20,4 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/', 'InventoryController@index')->name('inventory.index');
+Route::get('/calculator', 'InventoryController@calc')->name('inventory.calc');
